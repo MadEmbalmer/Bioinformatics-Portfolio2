@@ -1,73 +1,120 @@
-# Bioinformatics & Machine Learning Portfolio — Parisa Farrokhian
+# Bioinformatics & Machine Learning Portfolio  
+**Parisa Farrokhian**
 
-This repository collects selected coursework and projects from my MSc in **Statistics & Data Science: Bioinformatics** (Hasselt University) and independent practice. It complements my formal training and demonstrates my applied experience in **machine learning, bioinformatics, and reproducible analysis**.
+This repository collects selected analytical and modeling projects from my MSc training in **Statistics & Data Science: Bioinformatics (Hasselt University)** as well as independent work.
+
+The portfolio demonstrates applied experience in:
+
+- Statistical modeling  
+- Bayesian inference  
+- Machine learning  
+- High-dimensional data analysis  
+- Reproducible computational workflows  
+
+The focus throughout is on **methodological rigor, transparent modeling assumptions, and principled validation**, particularly in biological and biomedical datasets.
 
 ---
 
-## 📂 Projects
+##  Featured Project
 
-### 1. Microbiome Biomarker Discovery (with code)
+### 1. Microbiome Biomarker Discovery (Active Coding Repository)
+
 - **Language:** R  
-- **Focus:** prevalence filtering, compositional adjustments, robust linear models, BH–FDR, ΔAICc.  
-- **Repo:** [bioinformatics-mini-portfolio](https://github.com/MadEmbalmer/bioinformatics-mini-portfolio)  
+- **Methods:** prevalence filtering, compositional transformations (CLR), robust linear models (HC3), Benjamini–Hochberg FDR correction, ΔAICc model comparison  
+- **Type:** Fully reproducible analysis pipeline  
+
+ Repository:  
+ https://github.com/MadEmbalmer/bioinformatics-mini-portfolio  
+
+This project demonstrates structured statistical modeling, uncertainty awareness, and reproducible reporting.
 
 ---
 
-### 2. Mechanisms of Action (MoA) Prediction — Kaggle
-- **Type:** Team project (Machine Learning competition)  
-- **Methods:** XGBoost, One-vs-Rest classifiers, Ensemble Chains, Dimensionality Reduction, MLSMOTE resampling.  
-- **File:** [`MOA_B_GROUP7.pdf`](MoA_Kaggle_Project/MOA_B_GROUP7.pdf)
+##  Additional Statistical & Bioinformatics Projects
+
+### 2. Mechanisms of Action (MoA) Prediction — Kaggle (Team Project)
+
+- **Methods:** XGBoost, One-vs-Rest classification, Ensemble Chains, dimensionality reduction, MLSMOTE resampling  
+- Focus on multi-label classification in high-dimensional settings  
+
+ File: `MoA_Kaggle_Project/MOA_B_GROUP7.pdf`
 
 ---
 
 ### 3. CRISPR–Cas9 Gene Essentiality Analysis
-- **Type:** Coursework (Analysis of Sequencing Data)  
-- **Methods:** MAGeCK (negative binomial modelling, robust rank aggregation), FDR control.  
-- **File:** [`Homework2_Parisa.pdf`](CRISPR_Screen_Analysis/Homework2_Parisa.pdf)
+
+- **Methods:** MAGeCK (negative binomial modeling), robust rank aggregation, FDR correction  
+- Emphasis on count-based modeling and statistical control of false discoveries  
+
+ File: `CRISPR_Screen_Analysis/Homework2_Parisa.pdf`
 
 ---
 
-### 4. ChIP-seq Differential Binding (H3K9ac, pro-B vs mature B cells)
-- **Type:** Coursework  
-- **Methods:** QC, ENCODE blacklist, window-based differential binding, cross-correlation for fragment length.  
-- **File:** [`Homework1.pdf`](ChIPseq_H3K9ac/Homework1.pdf)
+### 4. ChIP-seq Differential Binding (H3K9ac)
+
+- **Methods:** Quality control, ENCODE blacklist filtering, window-based differential binding, fragment-length cross-correlation  
+
+ File: `ChIPseq_H3K9ac/Homework1.pdf`
 
 ---
 
 ### 5. Protein Expression Analysis
-- **Focus:** Analysis of protein production and expression variability.  
-- **File:** [`Analysis_of_Proteins_Project_1.pdf`](Protein_Expression_Analysis/Analysis_of_Proteins_Project_1.pdf)
+
+- Focus on statistical modeling of protein production variability  
+
+ File: `Protein_Expression_Analysis/Analysis_of_Proteins_Project_1.pdf`
 
 ---
 
-### 6. Bayesian Assignment
-- **Focus:** Bayesian inference applied to biological data.  
-- **File:** [`Bayesian_Assignment.pdf`](Bayesian_Modelling/Bayesian_Assignment.pdf)
+### 6. Bayesian Modeling Assignment
+
+- Application of Bayesian inference to biological data  
+- Demonstrates prior specification, posterior reasoning, and probabilistic interpretation  
+
+ File: `Bayesian_Modelling/Bayesian_Assignment.pdf`
 
 ---
 
-### 7. Single-Cell / High-Dimensional Omics Integration
-- **Focus:** Statistical & computational methods for multi-omics integration.  
-- **File:** [`SCMIA_final_forsubmit.html`](SingleCell_or_Integration/SCMIA_final_forsubmit.html)
+### 7. Single-Cell / Multi-Omics Integration
+
+- Statistical and computational approaches for high-dimensional data integration  
+
+ File: `SingleCell_or_Integration/SCMIA_final_forsubmit.html`
 
 ---
 
-### 8. Longitudinal Data Analysis (Hemodialysis — Hemoglobin & EPO)
-- **Focus:** Model how hemoglobin (Hb) changes over time in hemodialysis patients and quantify the roles of **EPO dose**, **iron deficiency**, and **demographics**—while handling **unbalanced follow-up** and **missing data**.
+### 8. Longitudinal Data Analysis (Hemodialysis Study)
 
-- **Files.**  
-[`LDA_PROJECT2.pdf`](LDA_Projects/LDA_PROJECT2.pdf) — EDA, cumulative-logit checks, GEE vs GLMM, random-slope tests, SAS code appendix.  
-[`LDA_PROJECT3.pdf`](LDA_Projects/LDA_PROJECT3.pdf) — MAR analysis, **Multiple Imputation (FCS, m=10)**, **DR-GEE with IPW**, GLMM on imputed sets, sensitivity notes.  
-[`lda.pdf`](LDA_Projects/lda.pdf) — Team study description and continuous-Hb workflow.
+Statistical modeling of hemoglobin (Hb) trajectories in hemodialysis patients.
 
+**Methods include:**
+
+- Generalized Estimating Equations (GEE)  
+- Generalized Linear Mixed Models (GLMM)  
+- Multiple Imputation (FCS, m=10)  
+- Doubly Robust GEE with Inverse Probability Weighting  
+- Random slope modeling  
+- Sensitivity analysis under MAR assumptions  
+
+ Files:
+
+- `LDA_Projects/LDA_PROJECT2.pdf`  
+- `LDA_Projects/LDA_PROJECT3.pdf`  
+- `LDA_Projects/lda.pdf`
+
+This project demonstrates modeling under missing data, correlated outcomes, and longitudinal structure.
 
 ---
 
-## 🔍 Notes
-- All projects include raw code, provided at the end of each document. However, datasets are not shared (due to course rules or privacy restrictions).  
-- Where only reports are uploaded, full methodology and results are included for transparency.  
-- Active coding projects (e.g., the Microbiome Pipeline) are maintained in separate repositories.  
+##  Notes
+
+- Code is included within reports where applicable.  
+- Datasets are not publicly shared due to course regulations or privacy restrictions.  
+- Active coding pipelines are maintained in separate repositories (see featured project above).  
 
 ---
 
-📫 **Contact**: [parisafarrokhian7@gmail.com](mailto:parisafarrokhian7@gmail.com) | [LinkedIn](https://www.linkedin.com/in/parisa-farrokhian-b40829224)
+##  Contact
+
+📧 parisafarrokhian7@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/parisa-farrokhian-b40829224
