@@ -104,6 +104,21 @@ Statistical modeling of hemoglobin (Hb) trajectories in hemodialysis patients.
 
 This project demonstrates modeling under missing data, correlated outcomes, and longitudinal structure.
 
+
+---
+
+### 9. RNA 3D Structure Prediction via Geometric Deep Learning (Generative Modeling)
+
+- **Language:** Python  
+- **Methods:** Equivariant Graph Neural Networks (EGNN), diffusion-based generative modeling, torsion-angle representation, internal coordinate reconstruction, structural clustering  
+- **Focus:** Geometric deep learning for RNA backbone structure generation under limited biological data  
+
+ Repository:  
+ https://github.com/MadEmbalmer/Bioinformatics-miniportfolio1  
+
+This project explores RNA 3D structure generation by modeling backbone torsion angles with an E(n)-equivariant graph neural network and training a diffusion model over torsion space.  
+It demonstrates geometric deep learning, angular loss design, coordinate reconstruction, and structure sampling in a small-data bioinformatics setting.
+
 ---
 
 ##  Notes
@@ -116,5 +131,5 @@ This project demonstrates modeling under missing data, correlated outcomes, and 
 
 ##  Contact
 
-📧 parisafarrokhian7@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/parisa-farrokhian-b40829224
+Email: parisafarrokhian7@gmail.com  
+LinkedIn: https://www.linkedin.com/in/parisa-farrokhian-b40829224
